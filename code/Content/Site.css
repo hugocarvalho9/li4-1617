@@ -1,0 +1,99 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+html, body{
+    height: 100%;
+}
+
+form{
+    height: 100%;
+}
+
+.body-content{
+    padding-top:50px;
+    min-height: 100%;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    width: 720px;
+    margin: 0 auto;
+    position:relative;
+}
+
+//menu
+
+#menu {
+    padding-top:10px;
+    height:100%;
+    background-color:#f3f3f3;
+    float:left; 
+
+}
+
+ul{
+    margin-left:0px;
+    padding-left:0px;
+}
+
+li{
+    margin-left:0px;
+    margin-top:10px;
+    padding: 12px;
+    list-style-type:none;
+    border-left: 5px solid #09be00;
+}
+
+li:hover{
+    background-color: #cacaca;
+    border-left: 5px solid #252525;
+}
+
+//body
+
+.result{
+    width:90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.result_top{
+    background-color: #f3f3f3;
+}
+
+
+#interact, #MainContent_interact{
+    height:100%;
+    float:left; 
+    width:70%;
+    overflow:auto;
+}
+
+#text{
+    background-color:#09be00;
+}
+
+#text img {
+    max-width:60%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+#voice img {
+    padding-top:50px;
+    max-width:40%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+#searchb{
+    float:right;
+}
+
+form {
+    height:0px;
+}
+
+#search{
+    padding:15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
